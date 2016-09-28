@@ -1,11 +1,10 @@
 var grunt = require('grunt');
 
 grunt.loadNpmTasks('grunt-contrib-jshint');
-grunt.loadNpmTasks('grunt-mocha-test');
 grunt.loadNpmTasks('grunt-js-beautify');
 grunt.initConfig({
   jshint: {
-    all: ['Gruntfile.js', 'lib/**/*.js']
+    all: ['Gruntfile.js', 'src/**/*.js']
   },
   js_beautify: {
     options: {
