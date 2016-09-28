@@ -1,0 +1,35 @@
+{
+  "name": "clipfs-core",
+  "version": "1.0.0",
+  "description": "ClipFS - virtual dynamic folder implementation.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "test/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aero31aero/clipfs-core.git"
+  },
+  "keywords": [
+    "fuse",
+    "clipfs",
+    "virtual-filesystem"
+  ],
+  "author": "Rohitt Vashishtha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aero31aero/clipfs-core/issues"
+  },
+  "homepage": "https://github.com/aero31aero/clipfs-core#readme",
+  "dependencies": {
+    "fuse-bindings": "^2.9.0",
+    "mongoose": "^4.5.4"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-js-beautify": "^0.1.4",
+    "jslint": "^0.10.1"
+  }
+}
